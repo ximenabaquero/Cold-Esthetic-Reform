@@ -41,6 +41,19 @@ a {
   }
 }
 
+/* Reusable Radley font utilities */
+.radley-regular {
+  font-family: var(--font-radley), serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.radley-regular-italic {
+  font-family: var(--font-radley), serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;

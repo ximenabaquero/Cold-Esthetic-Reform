@@ -1,15 +1,13 @@
 import '@/styles/globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import { Radley } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'], display: 'swap' })
 const radley = Radley({
-  subsets: ['latin'],
   weight: '400',
   style: ['normal', 'italic'],
+  subsets: ['latin'],
+  variable: '--font-radley',
   display: 'swap',
-  variable: '--font-radley', // expone la variable CSS
 })
 
 export const metadata: Metadata = {
@@ -64,7 +62,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es" className="scroll-smooth">
-      <body className={`${inter.className} ${radley.variable} antialiased bg-white text-dark`}>
+      <body className={`font-sans ${radley.variable}`}>
         {children}
       </body>
     </html>
