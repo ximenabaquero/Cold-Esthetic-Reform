@@ -1,5 +1,16 @@
 import '@/styles/globals.css'
 import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+import { Radley } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'], display: 'swap' })
+const radley = Radley({
+  subsets: ['latin'],
+  weight: '400',
+  style: ['normal', 'italic'],
+  display: 'swap',
+  variable: '--font-radley', // expone la variable CSS
+})
 
 export const metadata: Metadata = {
   title: 'Cold Esthetic Reform - Centro Estético en Bogotá',
@@ -53,7 +64,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es" className="scroll-smooth">
-      <body className="font-sans">
+      <body className={`${inter.className} ${radley.variable} antialiased bg-white text-dark`}>
         {children}
       </body>
     </html>
