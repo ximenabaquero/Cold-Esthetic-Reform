@@ -1,5 +1,9 @@
 @import "tailwindcss";
+@theme {
+ /* otros colores página */
 
+  --color-header: #397563;
+} 
 :root {
   --color-primary: #079145;
   --color-secondary: #339EAB;

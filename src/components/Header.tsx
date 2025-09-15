@@ -32,7 +32,7 @@ function Header() {
                 priority
                 className="h-10 w-10 object-contain rounded-full ring-1 ring-accent/30 bg-white"
               />
-              <span className="text-2xl font-bold text-primary">
+              <span className="text-2xl font-bold text-header">
                 Cold Esthetic Reform
               </span>
             </Link>
@@ -43,7 +43,7 @@ function Header() {
               <Link
                 key={link.name}
                 href={link.href}
-                className="text-base font-medium text-dark hover:text-primary transition-colors"
+                className="text-base font-medium text-header hover:text-header/80 transition-colors"
               >
                 {link.name}
               </Link>
