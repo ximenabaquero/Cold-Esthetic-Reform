@@ -2,7 +2,7 @@
 
 Página web oficial del centro estético **Cold Esthetic Reform** en Bogotá, Colombia. Sitio desarrollado con Next.js 14, TypeScript y Tailwind CSS.
 
-## 🌟 Características
+##  Características
 
 - **Diseño Responsivo**: Optimizado para todos los dispositivos (mobile-first)
 - **SEO Optimizado**: Meta tags, Open Graph, sitemap y robots.txt
@@ -11,7 +11,7 @@ Página web oficial del centro estético **Cold Esthetic Reform** en Bogotá, Co
 - **TypeScript**: Código tipado para mayor seguridad
 - **Tailwind CSS**: Diseño consistente y mantenible
 
-## 🎨 Paleta de Colores
+##  Paleta de Colores
 
 - **Primary**: `#079145` (Verde principal)
 - **Secondary**: `#339EAB` (Azul secundario)
@@ -20,7 +20,7 @@ Página web oficial del centro estético **Cold Esthetic Reform** en Bogotá, Co
 - **Light**: `#F5FAF9` (Fondo claro)
 - **White**: `#FFFFFF` (Blanco)
 
-## 📄 Páginas
+##  Páginas
 
 - **`/`** - Página principal con hero, servicios, antes/después, pasos, testimonios y FAQ
 - **`/servicios`** - Lista de todos los servicios
@@ -29,7 +29,7 @@ Página web oficial del centro estético **Cold Esthetic Reform** en Bogotá, Co
 - **`/agenda`** - Formulario para agendar citas
 - **`/contacto`** - Información de contacto y formulario
 
-## 🚀 Tecnologías
+##  Tecnologías
 
 - **Framework**: Next.js 14 (App Router)
 - **Lenguaje**: TypeScript
@@ -38,7 +38,7 @@ Página web oficial del centro estético **Cold Esthetic Reform** en Bogotá, Co
 - **SEO**: Metadata API, Open Graph, Sitemap
 - **Formularios**: Formularios controlados con validación
 
-## 📦 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 src/
@@ -102,13 +102,13 @@ src/
 - `npm run start` - Servidor de producción
 - `npm run lint` - Linter de código
 
-## 🌐 Variables de Entorno
+##  Variables de Entorno
 
 | Variable | Descripción | Ejemplo |
 |----------|-------------|---------|
 | `NEXT_PUBLIC_WA_URL` | URL de WhatsApp para contacto | `https://wa.me/5731XXXXXXXX` |
 
-## 📝 Desarrollo
+##  Desarrollo
 
 ### Agregar Nuevos Servicios
 
@@ -131,7 +131,7 @@ src/
 1. Editar `tailwind.config.js` para cambiar la paleta
 2. Actualizar `src/styles/globals.css` para las variables CSS
 
-## 🔍 SEO y Rendimiento
+## SEO y Rendimiento
 
 - **Sitemap**: Generado dinámicamente en `/sitemap.xml`
 - **Robots.txt**: Configurado en `/public/robots.txt`
@@ -161,7 +161,7 @@ src/
 
 ## 📞 Contacto
 
-- **Desarrollado por**: Alexander Gil Roa
+- **Desarrollado por**: Ximena Gil Baquero
 - **Cliente**: Cold Esthetic Reform
 - **Ubicación**: Bogotá, Colombia
 
@@ -171,7 +171,7 @@ Este proyecto está desarrollado exclusivamente para Cold Esthetic Reform.
 
 ---
 
-## 🚧 TODOs
+## 🚧 Por hacer:
 
 - [ ] Integrar con backend/CMS para gestión de contenido
 - [ ] Implementar sistema de citas en línea
