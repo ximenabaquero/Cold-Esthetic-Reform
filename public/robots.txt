@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Disallow admin or sensitive areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+
+# Allow specific important files
+Allow: /api/sitemap
+
+# Sitemap
+Sitemap: https://coldestheticreform.com/sitemap.xml
