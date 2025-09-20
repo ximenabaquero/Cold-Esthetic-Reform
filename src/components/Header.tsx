@@ -74,7 +74,7 @@ function Header() {
               type="button"
               className="inline-flex items-center justify-center rounded-md bg-white p-2 text-dark hover:bg-accent hover:text-primary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary"
               onClick={() => setIsMenuOpen((v) => !v)}
-                className="inline-flex items-center gap-2 rounded-md bg-primary px-3 py-2 text-base font-medium text-white hover:bg-primary/90"
+              
               aria-label="Toggle navigation menu"
             >
               <span className="sr-only">Abrir menú principal</span>
